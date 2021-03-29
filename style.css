@@ -1,4 +1,7 @@
-#bg {
-	z-index: 0
-	background-color: #333333
+body {
+	background-color: #333333;
+}
+
+h, h1, h2, h3, h4, h5, h6, p {
+  color: white;
 }
