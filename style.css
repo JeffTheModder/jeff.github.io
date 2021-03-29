@@ -37,6 +37,13 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: 'Fira Sans', sans-serif;
 }
 
+#navbar h5 {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px;
+}
+
 #navbar a:hover {
   background-color: #bbbbbb;
 }
