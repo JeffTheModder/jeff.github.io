@@ -22,3 +22,17 @@ h1, h2, h3, h4, h5, h6, p {
 #header {
   text-align: center;
 }
+
+#navbar {
+  overflow: hidden;
+  background-color: linear-gradient(#191919, #0b0b0b) fixed;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
