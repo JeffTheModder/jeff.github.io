@@ -24,6 +24,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #navbar {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+	position: sticky;
   overflow: hidden;
 }
 
