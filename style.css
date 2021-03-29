@@ -3,7 +3,13 @@ body {
   background-color: #333333;
 }
 
-h, h1, h2, h3, h4, h5, h6, p {
+h1 {
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 10em;
+}
+
+h2, h3, h4, h5, h6, p {
   color: white;
   font-family: 'Fira Sans', sans-serif;
 }
