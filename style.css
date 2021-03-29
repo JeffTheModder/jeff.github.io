@@ -19,16 +19,16 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: 'Fira Sans', sans-serif;
 }
 
-global(#header) {
+#header {
   text-align: center;
 }
 
-global(#navbar) {
+#navbar {
   overflow: hidden;
   background-color: linear-gradient(#191919, #0b0b0b) fixed;
 }
 
-global(#navbar) a {
+#navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
