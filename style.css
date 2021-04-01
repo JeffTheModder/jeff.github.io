@@ -36,6 +36,9 @@ nav {
 nav ul {
   list-style: none;
   margin: 0;
+}
+
+nav ul a {
   padding: 0;
   float: left;
   display: block;
@@ -45,6 +48,6 @@ nav ul {
   font-family: 'Fira Sans', sans-serif;
 }
 
-nav ul:hover {
+nav ul a:hover {
   background-color: #bbbbbb;
 }
