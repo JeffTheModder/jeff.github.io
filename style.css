@@ -6,7 +6,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background: #333333;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background: -webkit-linear-gradient(#191919, #0b0b0b) fixed;
   background: -moz-linear-gradient(#191919, #0b0b0b) fixed;
   background: -ms-linear-gradient(#191919, #0b0b0b) fixed;
