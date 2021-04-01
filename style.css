@@ -28,17 +28,12 @@ h1, h2, h3, h4, h5, h6, p {
   padding-right: 50px;
 }
 
-nav {
+#navbar {
   position: -webkit-sticky;
   position: sticky;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-}
-
-nav ul a {
+#navbar a {
   padding: 0;
   float: left;
   display: block;
@@ -48,6 +43,6 @@ nav ul a {
   font-family: 'Fira Sans', sans-serif;
 }
 
-nav ul a:hover {
+#navbar a:hover {
   background-color: #bbbbbb;
 }
