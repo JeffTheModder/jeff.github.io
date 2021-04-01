@@ -51,11 +51,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .title {
-  margin-top: 65px; 
+  margin-top: 45vh; 
 }
 
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
