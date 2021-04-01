@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.badge, .badge:hover, .badge:active, .badge2, .badge2:hover, .badge2:active, .badge3, .badge3:hover, .badge3:active, .badge4, .badge4:hover, .badge4:active {
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-flex;
+  padding: 8px 12px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(17, 29, 44);
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.badge2, .badge2:hover, .badge2:active {
+	bottom: 60px;
+	right: 20px;
+}
+
+.badge3, .badge3:hover, .badge3:active {
+	bottom: 100px;
+	right: 20px;
+}
+
+.badge4, .badge4:hover, .badge4:active {
+	bottom: 140px;
+	right: 20px;
+}
+
+
+.badge img, .badge2 img, .badge3 img, .badge4 img {
+  width: 20px;
+  margin-right: 4px;
+  height: auto;
+}
+
+.badge img:hover, .badge:hover > img, .badge2 img:hover, .badge2:hover > img, .badge3 img:hover, .badge3:hover > img, .badge4 img:hover, .badge4:hover > img {
+	animation: rotation 2s infinite linear;
+}
+
+.badge:hover, .badge2:hover, .badge3:hover, .badge4:hover {
+	cursor: pointer !important;
+	font-size: 13.5px !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.no-animate, .no-animate:hover, .no-animate:active, .no-animate > img, .no-animate:hover > img, .no-animate:active > img {
+	animation: none !important;
+}
