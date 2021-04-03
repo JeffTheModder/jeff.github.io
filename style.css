@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
 
 main, body {
-  height: 100vh;
+  height: 80vh;
 }
 
 @keyframes gradient {
