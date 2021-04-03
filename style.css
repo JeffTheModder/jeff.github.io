@@ -55,8 +55,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #maintitle {
-  margin-top: 40vh;
   font-size: 3em;
+}
+
+#titlendes {
+  top: 50%;
 }
 
 hr {
