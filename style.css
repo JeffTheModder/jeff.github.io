@@ -87,6 +87,7 @@ hr {
     vertical-align: middle;
     letter-spacing: 0.001em;
     text-align: center;
+    font-size: 0.5em;
 }
 
 .frac > span {
