@@ -29,12 +29,12 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: 'Fira Sans', sans-serif;
 }
 
-#dap {
- font-size: 1.5em; 
-}
-
 .center {
   text-align: center;
+}
+
+#dap {
+ font-size: 1.5em; 
 }
 
 #navbar {
@@ -79,4 +79,21 @@ hr {
   height: 1px;
   width: 60vw;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+
+.frac span.bottom {
+    border-top: thin solid black;
 }
