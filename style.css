@@ -1,40 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+*{overflow-y: scroll;}
 
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 60s ease infinite;
-  position: fixed;
+  background: #2b2b2b;
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
   color: white;
-  font-family: 'Fira Sans', sans-serif;
-}
-
-.center {
-  text-align: center;
-}
-
-#dap {
- font-size: 1.5em; 
+  font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
@@ -43,16 +17,17 @@ h1, h2, h3, h4, h5, h6, p, span {
   top: 0;
   left: 0;
   width: 100%;
-  background: #000b0b0b;
+  height: 10vh;
+  background: #2b2b2b20;
 }
 
 #navbar a {
-  padding: 20px 16px;
+  padding: 3.5vh 3.5vh;
   float: left;
   display: block;
   text-align: center;
   text-decoration: none;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -60,12 +35,8 @@ h1, h2, h3, h4, h5, h6, p, span {
   background-color: #FFFFFF20;
 }
 
-#maintitle {
-  font-size: 3em;
-}
-
-#titlendes {
-  margin-top: 40vh;
+.center {
+  text-align: center;
 }
 
 .content {
@@ -82,19 +53,19 @@ hr {
 }
 
 .frac {
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    letter-spacing: 0.001em;
-    text-align: center;
-    font-size: 0.5em;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+  font-size: 0.5em;
 }
 
 .frac > span {
-    display: block;
-    padding: 0.1em;
+  display: block;
+   padding: 0.1em;
 }
 
 .frac span.bottom {
-    border-top: thin solid white;
+  border-top: thin solid white;
 }
