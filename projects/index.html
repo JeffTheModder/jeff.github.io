@@ -3,12 +3,10 @@
   <head>
     <link rel="stylesheet" href="https://jeffthemodder.github.io/social.css">
     <link rel="stylesheet" href="https://jeffthemodder.github.io/style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Jeff The Modder</title>
+    <title>Projects | Jeff The Modder</title>
   </head>
   <body>
     <div id="navbar">
@@ -18,75 +16,7 @@
     <div class="content">
       <h1 class="center">Projects</h1>
       <div class="para-content">
-        <p>Here's some content! <span class="frac"><span>1</span><span class="bottom">90</span></span></p>
-        <pre>
-          <code>
-          import turtle
-
-          pen = turtle.Turtle()
-
-          import math
-
-          def fiboPlot(n):
-            a = 0
-            b = 1
-            square_a = a
-            square_b = b
-
-            # pen.pencolor("blue")
-
-            # pen.forward(b * factor)
-            # pen.left(90)
-            # pen.forward(b * factor)
-            # pen.left(90)
-            # pen.forward(b * factor)
-            # pen.left(90)
-            # pen.forward(b * factor)
-
-            # temp = square_b
-            # square_b = square_b + square_a
-            # square_a = temp
-
-            # for i in range(1, n):
-            #   pen.backward(square_a * factor)
-            #   pen.right(90)
-            #   pen.forward(square_b * factor)
-            #   pen.left(90)
-            #   pen.forward(square_b * factor)
-            #   pen.left(90)
-            #   pen.forward(square_b * factor)
-            #   temp = square_b
-            #   square_b = square_b + square_a
-            #   square_a = temp
-
-            pen.penup()
-            pen.setposition(factor, 0)
-            pen.seth(0)
-            pen.pendown()
-            pen.pencolor("red")
-            pen.left(90)
-            for i in range(n):
-              print(b)
-              fdwd = math.pi * b * factor / 2
-              fdwd /= 90
-              for j in range(90):
-                pen.forward(fdwd)
-                pen.left(1)
-              temp = a
-              a = b
-              b = temp + b
-          factor = 1
-          n = int(input('Enter the number of iterations (must be > 1): '))
-
-          if n > 0:
-            print("Fibonacci series for", n, "elements :")
-            pen.speed(100)
-            fiboPlot(n)
-            turtle.done()
-          else:
-            print("Number of iterations must be > 0")
-          </code>
-        </pre>
+        <p>Here's some content!</p>
       </div>
     </div>
     <a class="badge" href="https://replit.com/@DuckMonkey" target="_blank"><img src="https://CoolCoderSJ.repl.co/replit-logo.svg" alt="replit" />DuckMonkey</a>
