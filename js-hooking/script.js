@@ -1,4 +1,4 @@
-const people = (function() {
+var people = (function() {
     let people = []
 
     let squishey = {
