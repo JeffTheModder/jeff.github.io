@@ -68,3 +68,8 @@ hr {
 .frac span.bottom {
   border-top: thin solid white;
 }
+
+#icon {
+  max-height: 1em;
+  width: auto;
+}
