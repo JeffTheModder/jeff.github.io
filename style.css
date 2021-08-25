@@ -70,6 +70,7 @@ hr {
 }
 
 #icon {
-  max-height: 1em;
+  max-height: 3em;
   width: auto;
+  transform: translateY(8px);
 }
