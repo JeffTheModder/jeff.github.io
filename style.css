@@ -47,3 +47,12 @@ span {
 #navbar a:hover {
     background-color: #888888;
 }
+
+.custom-shape-divider-top-1632265249 {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
