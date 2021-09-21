@@ -1,76 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html,
 body {
-  background: #2b2b2b;
-  overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, span {
-  color: white;
-  font-family: 'Roboto', sans-serif;
+body {
+    background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 10vh;
-  background: #2b2b2b20;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background: white;
 }
 
 #navbar a {
-  padding: 3.5vh 3.5vh;
-  float: left;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  color: white;
+    padding: 3.5vh 3.5vh;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 #navbar a:hover {
-  background-color: #FFFFFF20;
-}
-
-.center {
-  text-align: center;
-}
-
-.content {
-  padding-top: 10vh;
-  max-width: 65rem;
-  margin: 0 auto;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  width: 60vw;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.25));
-}
-
-.frac {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  letter-spacing: 0.001em;
-  text-align: center;
-  font-size: 0.5em;
-}
-
-.frac > span {
-  display: block;
-  padding: 0.1em;
-}
-
-.frac span.bottom {
-  border-top: thin solid white;
-}
-
-#icon {
-  max-height: 3em;
-  width: auto;
-  transform: translateY(-25%);
+    background-color: #888888;
 }
