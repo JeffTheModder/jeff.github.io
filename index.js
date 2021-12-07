@@ -1,1 +1,1 @@
-VANTA.TRUNK("#bg")
+VANTA.WAVES("#bg")
