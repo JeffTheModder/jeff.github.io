@@ -1,5 +1,5 @@
 VANTA.TRUNK({
-    el: "#your-element-selector",
+    el: "#bg",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
