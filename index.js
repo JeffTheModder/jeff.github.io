@@ -5,9 +5,9 @@ VANTA.TRUNK({
     gyroControls: false,
     minHeight: 200.00,
     minWidth: 200.00,
-    scale: 1.00,
+    scale: 2.00,
     scaleMobile: 1.00,
     backgroundColor: 0xffffff,
     spacing: 8.00,
-    chaos: 1.50
+    chaos: 1.75
 })
