@@ -8,6 +8,6 @@ VANTA.TRUNK({
     scale: 2.00,
     scaleMobile: 1.00,
     backgroundColor: 0xffffff,
-    spacing: 8.00,
-    chaos: 1.75
+    spacing: 9.00,
+    chaos: 2.00
 })
