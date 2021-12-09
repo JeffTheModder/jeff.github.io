@@ -1,16 +1,16 @@
-// VANTA.TRUNK({
-//     el: "#header",
-//     mouseControls: true,
-//     touchControls: true,
-//     gyroControls: false,
-//     minHeight: 200.00,
-//     minWidth: 200.00,
-//     scale: 2.00,
-//     scaleMobile: 1.00,
-//     backgroundColor: 0xffffff,
-//     spacing: 9.00,
-//     chaos: 2.00
-// })
+VANTA.TRUNK({
+    el: "#header",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 2.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0xffffff,
+    spacing: 9.00,
+    chaos: 2.00
+})
 
 /*!
 * Start Bootstrap - Stylish Portfolio v6.0.4 (https://startbootstrap.com/theme/stylish-portfolio)
