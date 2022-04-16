@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1 | Jeff Morris</title>
+    <link rel="stylesheet" href="../../../../style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/atom-one-dark-reasonable.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+<body id="page-top">
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="/">Jeff Morris</a></li>
+            <li class="sidebar-nav-item"><a href="/">Home</a></li>
+            <li class="sidebar-nav-item"><a href="#what-is-it">What's Python?</a></li>
+            <li class="sidebar-nav-item"><a href="#where-to-start">Where to start</a></li>
+            <li class="sidebar-nav-item"><a href="#types">Types</a></li>
+            <li class="sidebar-nav-item"><a href="#functions">Functions</a></li>
+            <li class="sidebar-nav-item"><a href="#variables">Variables</a></li>
+            <li class="sidebar-nav-item"><a href="#downloading-python">Downloading Python</a></li>
+            <li class="sidebar-nav-item"><a href="#challenge">Challenge</a></li>
+        </ul>
+    </nav>
+    <section class="content-section bg-primary text-white" id="what-is-it">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-3">Lesson 1</h3>
+                <h2 class="mb-5">What's Python?</h2>
+            </div>
+            <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.</p>
+            <br>
+            <p>So what does that mean?</p>
+            <br>
+            <p>It means that Python is designed to be as close to colloquial English as possible. It has simple syntax (commands), punctuation (primarily colons), and blocks of code are defined by indentation, not curly braces. The language is meant to be very beginner friendly and that's [probably] why you're learning it. Another reason Python is so easy to learn is it's large community and plethora of documentation and tutorials.</p>
+        </div>
+    </section>
+    <section class="content-section bg-muted text-dark" id="where-to-start">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Where do I start?</h2>
+            </div>
+            <p>To start with Python, you first need to learn programming basics. These basics include knowledge of types, functions, classes, variables, and more. Once you get most of the basics down, you'll start with little pieces at a time and work your way up. It will take time and dedication to learn, so you have to be patient. You also want to make sure you test stuff you've learned, either by copying examples or creating projects. After lessons, I'll try to give you projects to test your knowledge.</p>
+            <br>
+            <p>Some websites you can use are <a href="http://w3schools.com/python">w3schools</a>, <a href="http://stackoverflow.com/">stackoverflow</a>, and <a href="http://geeksforgeeks.org/">geeksforgeeks</a>; but I'll try to cover as much as I can. Keep in mind that these websites are better to use as references than tutorials. It's usually best to google your question and check for trusted links like those I previously mentioned. In this lesson I'll try to teach native types, functions, and variables.</p>
+        </div>
+    </section>
+    <section class="content-section bg-success text-white" id="types">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Types</h2>
+            </div>
+            <p>Data types are used within type systems, which offer various ways of defining, implementing, and using them. Different type systems ensure varying degrees of type safety.</p>
+            <p>Almost all programming languages explicitly include the notion of data type, though different languages may use different terminology.</p>
+            <p>Common data types include integers, floating-point numbers, characters, strings, and booleans.</p>
+            <p>For example, in the Java programming language, the type int represents the set of 32-bit integers ranging in value from −2,147,483,648 to 2,147,483,647, as well as the operations that can be performed on integers, such as addition, subtraction, and multiplication. A color, on the other hand, might be represented by three bytes denoting the amounts each of red, green, and blue, and a string representing the color's name.</p></p>
+            <p>The basic types you need to worry about right now are integers, strings, and booleans. An int is essentially a number, a string is text that's not read by the code as syntax (strings are wrapped in quotation marks), and a boolean is a truthy or falsy value (True and False in python; case sensitive)</p>
+            <p>Examples:</p>
+            <pre><code class="language-python">some_string = "string"
+some_int = 74
+some_bool = True</code></pre>
+        </div>
+    </section>
+    <section class="content-section bg-muted text-dark" id="functions">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Functions</h2>
+            </div>
+            <p>Functions are a lot like algebraic functions, as in they take an argument (multiple arguments, or no arguments) and equate to a value (or, in this case, carry out tasks). A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task. Functions can be native (part of the programming language), user-defined, or accessed via API (application programming interface).</p>
+            <p>An example of a function is <code>print</code>. <code>print</code> is a native function, as in it comes with python pre-defined. The <code>print</code> function "prints" your text (string) of choice to the console (where you'll type in commands to run your code).</p>
+            <p>Because most functions have the ability to be re-defined (their "function" changes), typing a function's name alone will not do anything. To make a function "do it's thing", you must call it. In most programming languages, you do this by typing two parentheses after the name (just like algebra!). Inside these parentheses is also where you put arguments.</p>
+            <p>Example:</p>
+            <pre><code class="language-python">print("hi there") # printing "Hi there" to the console, notice that the argument is a string.</code></pre>
+        </div>
+    </section>
+    <section class="content-section bg-warning text-dark" id="variables">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Variables</h2>
+            </div>
+            <p>A variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a container for a particular set of bits or type of data (like integer, float, string etc...). In Python, values can generally be accessed or changed at any time. Values are assigned to a variable with an equal sign (<code>=</code>). In Python, variables are automatically created when you type a name (that doesn't already exist).</p>
+            <p>Example:</p>
+            <pre><code class="language-python">my_message = "Sup, dude" # creating variable "my_message" and giving it a string value of "Sup, dude".
+print(my_message) # printing the value of my_message ("Sup, dude") to the console, notice that the argument is NOT in quotation marks.</code></pre>
+        </div>
+    </section>
+    <section class="content-section bg-muted text-dark" id="downloading-python">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Downloading Python</h2>
+            </div>
+            <p>Python is one of the easiest programming languages to download. If you're on Windows, it's as simple as the click of a button. If you're not on windows, downloading Python may take more effort. An alternative to downloading Python is using an in-browser IDE / REPL such as <a href="https://replit.com">Replit</a></p>
+            <p>On windows, you'll have to open command prompt to use python. The command for running your python file is <code>python my-file-name.py</code> (python files have the py file extension).</p>
+            <p>MacOS works similar to Windows, however you'll need to open the <i>terminal</i> and not <i>command prompt</i>. Note that with older versions of Python, there is one macOS quirk that you need to be aware of: programs that talk to the Aqua window manager (in other words, anything that has a GUI) need to be run in a special way. Use <code>pythonw</code> instead of <code>python</code> to start such scripts.</p>
+            <h4 class="mb-5">Links:</h4>
+            <ul>
+                <li><a href="https://www.python.org/downloads/windows/">Download Python for Windows</a></li>
+                <li><a href="https://www.python.org/downloads/macos/">Download Python for MacOS</a></li>
+                <li><a href="https://www.python.org/download/other/">Python Download for other operating systems</a></li>
+                <li><a href="https://replit.com/">Replit</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="content-section bg-danger text-white" id="challenge">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Coding Challenge</h2>
+            </div>
+            <p>For this challenge, you will need to create a variable called <strong>helloworld</strong> equal to the string "Hello, world!" and print it. The program should be two lines long and after running you should see <strong>"Hello, world!"</strong> in your console.</p>
+            <p>Upon completing the challenge, if you are in my coding chat on Discord, send screenshot proof that you've completed it.</p>
+            <p>If you need help, tell me your issue on Discord (<strong>Jeff55#6617</strong> if you don't have me added).</p>
+        </div>
+    </section>
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <script src="../../../../index.js"></script>
+</body>
+</html>
