@@ -54,6 +54,20 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         }
     })
+
+    function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+    document.getElementById("wai").innerText = "&emsp;&emsp;&emsp;&emsp;I'm Jeff. I'm " + getAge("11152005") + " years old and I'm a programmer and calisthenics athlete. I don't feel like redoing this every year so it'll be like this until I redo the whole website. Maybe someday."
+
 })
 
 function fadeOut(el) {
